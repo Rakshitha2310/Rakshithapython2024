@@ -1,0 +1,8 @@
+principle = float(input("Enter principle amount: "))
+rate = float(input("Enter annual rate of interest: "))
+time = float(input("Enter time in years:"))
+interest = (principle*rate*time)/100
+print("Simple IEnter principle amount: 5000
+Enter annual rate of interest: 2
+Enter time in years:3
+Simple Interest: 300.0nterest:", interest)
