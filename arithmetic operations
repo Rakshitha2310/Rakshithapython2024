@@ -1,0 +1,15 @@
+a = int(input("enter a number: "))
+b = int(input("enter a number: "))
+print(a + b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+prenter a number: 7
+enter a number: 8
+15
+-1
+56
+0.875
+7
+5764801int(a**b)
