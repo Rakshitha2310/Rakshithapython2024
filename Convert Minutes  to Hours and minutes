@@ -1,0 +1,6 @@
+minutes = int(input("Enter time in minutes"))
+hours = minutes//60
+b = minutes%60
+print(f"Time: {hours} Enter time in minutes150
+Time: 2 hours and 30 minutes
+hours and {b} minutes")
