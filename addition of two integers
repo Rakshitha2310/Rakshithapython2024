@@ -1,0 +1,8 @@
+a = int(input("enter a number"))
+b = int(input("enter a number"))
+print(a + b)
+prinenter a number5
+enter a number5
+10
+25
+t(a*b)
