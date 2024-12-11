@@ -1,0 +1,7 @@
+a = int(input("Enter s number"))
+if a>0:
+  print("positive")
+else:
+  print("negative")Enter s number6
+positive
+Sum of all even numbers in
