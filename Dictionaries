@@ -1,0 +1,17 @@
+#dictionary
+a = {"name":'Alice', "age":18, "marks":95}
+print(a)
+print(a["name"])
+print(a["age"])
+print(a["marks"])
+{'name': 'Alice', 'age': 18, 'marks': 95}
+Alice
+18
+95
+
+#iterating of dictionary
+for key, value in a.items():
+  print(key, value)
+name Rakshitha
+marks 95
+grade A
