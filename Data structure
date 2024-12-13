@@ -1,0 +1,56 @@
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(a)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = [1, 2, 3, 'Rakshitha']
+print(b)
+[1, 2, 3, 'Rakshitha']
+List Operations Accessing Items
+print(a[9])
+print(b[-1])
+10
+Rakshitha
+Modifying Items
+
+b[0]=10
+print(b)
+[10, 2, 3, 'Rakshitha']
+Adding Items **append**
+b.append(4)
+b
+[10, 2, 3, 'Rakshitha', 4]
+
+insert
+b.insert(4, 6)
+b
+[10, 2, 3, 'Rakshitha', 6, 4]
+remove
+b.remove(3)
+b
+[10, 2, 'Rakshitha', 6, 4]
+#pop
+b.pop(3)
+b
+[10, 2, 'Rakshitha', 4]
+
+Other operations
+#len
+len(b)
+4
+#sort
+a.sort()
+a
+[2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 10]
+#revese
+b.reverse()
+b
+[4, 'Rakshitha', 2, 10]
+Iterating through a list
+for b in b:
+  print(b)
+4
+Rakshitha
+2
+10
+Tupels
+print(b[0])
+10
