@@ -1,0 +1,19 @@
+#Opening file
+file = open("/content/rakshi (2).docx", "r")
+
+Reading file
+file = open("/content/Rakshiii.txt", "r")
+file = open("/content/Rakshiii.txt", "r")
+content = file.read
+print(content)
+file.close()
+#writing file
+file = open("/content/Rakshiii.txt", "w")
+file.write("Hello,World!\n")
+file.close()
+#appending file
+file = open("/content/Rakshiii.txt", "a")
+file.write("this is an appended line.\n")
+file.close()
+with open("/content/images.jpeg", "rb")as file:
+  data = file.read()
