@@ -1,0 +1,30 @@
+try:
+  num = int(input("Enter a number: "))
+  print(10/num)
+except ZeroDivisionError:
+  print("You cannot divide by zero.")
+except ValueError:
+  print("Invalid input! Plaese enter a number.")
+Enter a number: 0
+You cannot divide by zero.
+
+Finally Block
+try:
+  file = open("", "r")
+except FileNotFoundError:
+  print("File not found.")
+finally:
+  print("Execution complete.")
+File not found.
+Execution complete.
+#raising exception
+def check_age(age):
+  if age<18:
+    raise ValueError("Age must be 18 or older.")
+  return True
+
+try:
+  check_age(16)
+except ValueError as e:
+  print(e)
+Age must be 18 or older.
